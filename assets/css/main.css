@@ -74,6 +74,10 @@ main {
 
 }
 
+#som{
+    padding-top: 20px;
+}
+
 .frase{
     color: orangered;
     font-size: 25px;
