@@ -4,6 +4,37 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#ngados marquee{
+    margin-left: 40%;
+    color: orangered;
+    background-color: white;
+}
+
+.containerContent{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.nelore a, .neloreangus a, .jersolanda a{
+    text-decoration: none;
+    color: black;
+}
+.nelore p, .neloreangus p, .jersolanda p{
+    font-size: 150%;
+    text-align: center;
+}
+
+.nelore img, .neloreangus img, .jersolanda img{
+    padding: 5%;
+}
+
+.nelore, .neloreangus, .jersolanda{
+    background-color:orangered;
+}
+
 .row{
     display: flex;
     flex-direction: row;
