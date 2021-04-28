@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 /** content **/
-#ngados marquee{
-    margin-left: 40%;
+.nossosGados{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nossosGados h2{
     color: orangered;
     background-color: white;
 }
@@ -18,21 +26,34 @@
     padding-bottom: 5%;
 }
 
-.nelore a, .neloreangus a, .jersolanda a{
+.cardGado a{
     text-decoration: none;
     color: black;
 }
-.nelore p, .neloreangus p, .jersolanda p{
+.cardGado p{
     font-size: 150%;
     text-align: center;
 }
 
-.nelore img, .neloreangus img, .jersolanda img{
+.cardGado img{
     padding: 5%;
+    border-radius: 25px;
+    transition: 0.8s;
 }
 
-.nelore, .neloreangus, .jersolanda{
+.cardGado{
+    transition: 0.8s;
+    height: 350px;
+    width: 350px;
     background-color:orangered;
+    border-radius: 10px;
+}
+
+.cardGado:hover img{
+    padding-left: 10%;
+}
+.cardGado:hover {
+    background-color:red;
 }
 
 /** HEADER **/
