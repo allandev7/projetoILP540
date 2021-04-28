@@ -5,56 +5,6 @@
     text-decoration: none;
 }
 
-/** content **/
-.nossosGados{
-    display: flex;
-    flex-direction: column;
-    height: 550px;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.nossosGados h2{
-    color: orangered;
-    background-color: white;
-}
-.containerContent{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-}
-
-.cardGado a{
-    text-decoration: none;
-    color: black;
-}
-.cardGado p{
-    font-size: 150%;
-    text-align: center;
-}
-
-.cardGado img{
-    padding: 5%;
-    border-radius: 25px;
-    transition: 0.8s;
-}
-
-.cardGado{
-    transition: 0.8s;
-    height: 350px;
-    width: 350px;
-    background-color:orangered;
-    border-radius: 10px;
-}
-
-.cardGado:hover img{
-    padding-left: 10%;
-}
-.cardGado:hover {
-    background-color:red;
-}
 
 /** HEADER **/
 
@@ -103,6 +53,98 @@ header img {
 .div-logotipo h3 {
     color: orangered;
     margin-left: 10px;
+}
+
+/** CONTENT **/
+.imgTopo{
+    background-color: gainsboro;
+}
+.imgTopo img{
+
+    margin-left: 250px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.frase{
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+#imagem { 
+    padding-top: 5px;
+}
+
+.quemSomos h2{
+    display: flex;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.conteudo{
+    display: flex;
+    font-style: italic;
+    color: orangered;
+    text-align: left;
+    font-style: italic;
+}
+    
+
+.nossosGados{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nossosGados h2{
+    color: orangered;
+    background-color: white;
+}
+.containerContent{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.cardGado a{
+    text-decoration: none;
+    color: black;
+}
+.cardGado p{
+    font-size: 150%;
+    text-align: center;
+}
+
+.cardGado img{
+    padding: 5%;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+
+.cardGado{
+    transition: 0.8s;
+    height: 350px;
+    width: 350px;
+    background-color:orangered;
+    border-radius: 10px;
+}
+
+.cardGado:hover img{
+    padding-left: 10%;
+}
+.cardGado:hover {
+    background-color:red;
 }
 
 /** FOOTER **/
