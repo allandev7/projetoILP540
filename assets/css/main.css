@@ -34,14 +34,17 @@ header img {
 
 .header-nav-ul li {
     font-size: 16px;
+    border: solid 2px orangered;
+    border-radius: 5px;
+    padding: 5px;
     color: orangered;
     font-weight: bold;
     list-style: none;
-    transition: color .3s;
+    transition: background-color .3s;
 }
 
 .header-nav-ul li:hover {
-    color: rgb(255, 166, 0);
+    background-color: rgb(189, 179, 159);
     cursor: pointer;
 }
 
@@ -56,10 +59,11 @@ header img {
 }
 
 /** CONTENT **/
-.imgTopo{
+
+.section-imgTopo{
     background-color: gainsboro;
 }
-.imgTopo img{
+.section-imgTopo img{
 
     margin-left: 250px;
     border-radius: 25px;
@@ -86,6 +90,11 @@ header img {
     color: black;
     text-align: left;
     font-size: xx-large;
+}
+
+.div-img-quemSomos {
+    display: flex;
+    justify-content: center;
 }
 
 .conteudo{
