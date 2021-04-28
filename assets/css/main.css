@@ -60,6 +60,11 @@ header img {
 
 /** CONTENT **/
 
+main {
+    padding: 0 5%; 
+    background-color: gainsboro;
+}
+
 .section-imgTopo{
     display: flex;
     flex-direction: column;
@@ -89,7 +94,6 @@ header img {
 
 .quemSomos {
     margin-top: 3em;
-    padding: 0 10%;
 }
 
 .quemSomos h2{
@@ -121,7 +125,7 @@ header img {
     height: 550px;
     text-align: center;
     justify-content: space-around;
-    padding-top: 3em;
+    padding: 2em 0;
     background-color: gainsboro;
 }
 
@@ -132,9 +136,6 @@ header img {
 .containerContent{
     display: flex;
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
 }
 
 .cardGado a{
