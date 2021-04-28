@@ -4,12 +4,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/** content **/
 #ngados marquee{
     margin-left: 40%;
     color: orangered;
     background-color: white;
 }
-
 .containerContent{
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,57 @@
     background-color:orangered;
 }
 
+/** HEADER **/
+
+header {
+    background-color: #d3d3d3;
+    padding: 1% 10%;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 70px;
+}
+
+.header-nav-ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header-nav-ul li:nth-child(1), .header-nav-ul li:nth-child(2) {
+    margin-right: 20px;
+}
+
+.header-nav-ul li {
+    font-size: 16px;
+    color: orangered;
+    font-weight: bold;
+    list-style: none;
+    transition: color .3s;
+}
+
+.header-nav-ul li:hover {
+    color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+
+.div-logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.div-logotipo h3 {
+    color: orangered;
+    margin-left: 10px;
+}
+
+/** FOOTER **/
+
 .row{
     display: flex;
     flex-direction: row;
@@ -51,7 +102,7 @@ footer{
     justify-content: space-between;
 }
 
-footer img{
+footer img {
     height: 100px;
 }
 
