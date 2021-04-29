@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <!-- header e navbar -->
   <header>
     <div class="containerHeader">
@@ -70,6 +71,7 @@
         </p>
       </article>
     </section>
+
     <!-- Nossos Gados -->
     <div id="nossosGados" class="nossosGados">
       <h2>Nossos Gados</h2>
@@ -97,7 +99,75 @@
         </article>
       </section>
     </div>
+
+    <!-- Contatos  -->
+    <section class="section-contatos">
+      <h2>Entre em contato via Email</h2>
+      <form>
+        <div class="form-div-nome">
+          <label>Nome</label>
+          <div>
+            <input name="firstName" type="text" placeholder="Nome" />
+          </div>
+        </div>
+        <div class="form-div-email">
+          <label>Email</label>
+          <div>
+            <input name="email" type="email" placeholder="Email" />
+          </div>
+        </div>
+        <div class="form-div-radio">
+          <label>Sexo</label>
+          <div class="form-radios">
+            <label>
+              <input name="sex" type="radio" value="Masculino" />
+              Masculino
+            </label>
+            <label>
+              <input name="sex" type="radio" value="Feminino" />
+              Feminino
+            </label>
+            <label>
+              <input name="sex" type="radio" value="Outro" />
+              Outro
+            </label>
+          </div>
+        </div>
+        <div class="form-div-select">
+          <label>Preferência de gado</label>
+          <div>
+            <select name="favoriteGado">
+              <option></option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-div-checkbox">
+          <label for="employed">Satisfeito</label>
+          <div>
+            <input name="employed" id="employed" type="checkbox" />
+          </div>
+        </div>
+        <div class="form-div-textarea">
+          <label>Notes</label>
+          <div>
+            <textarea name="notes"></textarea>
+          </div>
+        </div>
+        <div class="div-buttons">
+          <button type="submit">
+            Enviar
+          </button>
+          <button type="button">
+            Limpar
+          </button>
+        </div>
+      </form>
+    </section>
   </main>
+
   <!-- footer -->
   <footer>
     <div class="containerFooter">
