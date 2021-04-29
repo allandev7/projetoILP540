@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <!-- header e navbar -->
   <header>
     <div class="containerHeader">
@@ -30,7 +31,9 @@
           <a href="#nossosGados">
             <li>Nossos Gados</li>
           </a>
-          <li>Contatos</li>
+          <a href="#contatos"> 
+            <li>Comprar</li>
+          </a>
         </ul>
       </nav>
     </div>
@@ -41,7 +44,8 @@
     <section class="section-imgTopo">
       <img src="assets/images/Foto Principal.jpg" alt="Foto Nelore frente" width=70% height="450px">
       <audio id="som" controls="controls">
-        <source src="assets/som/Ando devagar porque já tive pressa - Tocando em Frente - Almir Sater.mp3" type="audio/mpeg">
+        <source src="assets/som/Ando devagar porque já tive pressa - Tocando em Frente - Almir Sater.mp3"
+          type="audio/mpeg">
       </audio>
       <p class="frase">"Campeiro é meu coração <br>
         No campo ele encontra vida <br>
@@ -75,6 +79,7 @@
         </p>
       </article>
     </section>
+
     <!-- Nossos Gados -->
     <div id="nossosGados" class="nossosGados">
       <h2>Nossos Gados</h2>
@@ -102,7 +107,77 @@
         </article>
       </section>
     </div>
+
+    <!-- Contatos  -->
+    <section id="contatos" class="section-contatos">
+      <h2>Garanta já o seu gado</h2>
+      <div class="section-contatos-form">
+        <form>
+          <div class="form-div-nome">
+            <label>Nome</label>
+            <div>
+              <input name="firstName" type="text" placeholder="Nome" />
+            </div>
+          </div>
+          <div class="form-div-email">
+            <label>Email</label>
+            <div>
+              <input name="email" type="email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="form-div-radio">
+            <label>Sexo</label>
+            <div class="form-radios">
+              <label>
+                <input name="sex" type="radio" value="Masculino" />
+                Masculino
+              </label>
+              <label>
+                <input name="sex" type="radio" value="Feminino" />
+                Feminino
+              </label>
+              <label>
+                <input name="sex" type="radio" value="Outro" />
+                Outro
+              </label>
+            </div>
+          </div>
+          <div class="form-div-select">
+            <label>Gado</label>
+            <div>
+              <select name="favoriteGado">
+                <option></option>
+                <option>Nelore</option>
+                <option>Nelore-Angus</option>
+                <option>Jersolanda</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-div-checkbox">
+            <label for="employed">Satisfeito</label>
+            <div class="form-div-input-checkbox">
+              <input name="employed" id="employed" type="checkbox" />
+            </div>
+          </div>
+          <div class="form-div-textarea">
+            <label>Notas</label>
+            <div>
+              <textarea name="notes"></textarea>
+            </div>
+          </div>
+          <div class="div-buttons">
+            <button type="submit">
+              Enviar
+            </button>
+            <button type="button">
+              Limpar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
+
   <!-- footer -->
   <footer>
     <div class="containerFooter">
