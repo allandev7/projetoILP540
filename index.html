@@ -42,7 +42,8 @@
     <section class="section-imgTopo">
       <img src="assets/images/Foto Principal.jpg" alt="Foto Nelore frente" width=70% height="450px">
       <audio id="som" controls="controls">
-        <source src="assets/som/Ando devagar porque já tive pressa - Tocando em Frente - Almir Sater.mp3" type="audio/mpeg">
+        <source src="assets/som/Ando devagar porque já tive pressa - Tocando em Frente - Almir Sater.mp3"
+          type="audio/mpeg">
       </audio>
       <p class="frase">"Campeiro é meu coração <br>
         No campo ele encontra vida <br>
@@ -108,68 +109,70 @@
     <!-- Contatos  -->
     <section class="section-contatos">
       <h2>Entre em contato via Email</h2>
-      <form>
-        <div class="form-div-nome">
-          <label>Nome</label>
-          <div>
-            <input name="firstName" type="text" placeholder="Nome" />
+      <div class="section-contatos-form">
+        <form>
+          <div class="form-div-nome">
+            <label>Nome</label>
+            <div>
+              <input name="firstName" type="text" placeholder="Nome" />
+            </div>
           </div>
-        </div>
-        <div class="form-div-email">
-          <label>Email</label>
-          <div>
-            <input name="email" type="email" placeholder="Email" />
+          <div class="form-div-email">
+            <label>Email</label>
+            <div>
+              <input name="email" type="email" placeholder="Email" />
+            </div>
           </div>
-        </div>
-        <div class="form-div-radio">
-          <label>Sexo</label>
-          <div class="form-radios">
-            <label>
-              <input name="sex" type="radio" value="Masculino" />
-              Masculino
-            </label>
-            <label>
-              <input name="sex" type="radio" value="Feminino" />
-              Feminino
-            </label>
-            <label>
-              <input name="sex" type="radio" value="Outro" />
-              Outro
-            </label>
+          <div class="form-div-radio">
+            <label>Sexo</label>
+            <div class="form-radios">
+              <label>
+                <input name="sex" type="radio" value="Masculino" />
+                Masculino
+              </label>
+              <label>
+                <input name="sex" type="radio" value="Feminino" />
+                Feminino
+              </label>
+              <label>
+                <input name="sex" type="radio" value="Outro" />
+                Outro
+              </label>
+            </div>
           </div>
-        </div>
-        <div class="form-div-select">
-          <label>Preferência de gado</label>
-          <div>
-            <select name="favoriteGado">
-              <option></option>
-              <option>Red</option>
-              <option>Green</option>
-              <option>Blue</option>
-            </select>
+          <div class="form-div-select">
+            <label>Gado</label>
+            <div>
+              <select name="favoriteGado">
+                <option></option>
+                <option>Nelore</option>
+                <option>Nelore-Angus</option>
+                <option>Jersolanda</option>
+              </select>
+            </div>
           </div>
-        </div>
-        <div class="form-div-checkbox">
-          <label for="employed">Satisfeito</label>
-          <div>
-            <input name="employed" id="employed" type="checkbox" />
+          <div class="form-div-checkbox">
+            <label for="employed">Satisfeito</label>
+            <div class="form-div-input-checkbox">
+              <input name="employed" id="employed" type="checkbox" />
+            </div>
           </div>
-        </div>
-        <div class="form-div-textarea">
-          <label>Notes</label>
-          <div>
-            <textarea name="notes"></textarea>
+          <div class="form-div-textarea">
+            <label>Notes</label>
+            <div>
+              <textarea name="notes"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="div-buttons">
-          <button type="submit">
-            Enviar
-          </button>
-          <button type="button">
-            Limpar
-          </button>
-        </div>
-      </form>
+          <div class="div-buttons">
+            <button type="submit">
+              Enviar
+            </button>
+            <button type="button">
+              Limpar
+            </button>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
 
