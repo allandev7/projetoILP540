@@ -101,7 +101,6 @@ main {
 }
 
 .quemSomos h2{
-    display: flex;
     font-weight: bold;
     color: black;
     text-align: left;
@@ -134,8 +133,12 @@ main {
 }
 
 .nossosGados h2{
-    color: orangered;
-    background-color: gainsboro;;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    font-size: xx-large;
+    margin-bottom: 1em;
+    border-bottom: solid 2px black;
 }
 .containerContent{
     display: flex;
@@ -234,9 +237,12 @@ form > div > div > * {
 }
 
 .section-contatos h2 {
+    font-weight: bold;
+    color: black;
     text-align: left;
+    font-size: xx-large;
+    margin-bottom: 1em;
     border-bottom: solid 2px black;
-    margin-bottom: 2em;
 }
 
 .div-buttons {
