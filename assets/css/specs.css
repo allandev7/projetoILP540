@@ -169,6 +169,10 @@ footer a:hover{
     opacity: 0.5;
 }
 
+.link-logoTipo:hover {
+    opacity: 1;
+}
+
 footer .row {
     height: 70px;
     width: 300px;
