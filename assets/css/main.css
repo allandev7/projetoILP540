@@ -60,6 +60,7 @@ header img {
 /** CONTENT **/
 
 main {
+    width: 1090px;
     padding: 2% 10%; 
     background-image: url('../images/Foto Principal.jpg');
     background-color: gainsboro;
@@ -155,7 +156,6 @@ main {
 }
 
 .cardGado img{
-    padding: 5%;
     border-radius: 25px;
     transition: 0.8s;
 }
@@ -163,13 +163,13 @@ main {
 .cardGado{
     transition: 0.8s;
     height: 350px;
-    width: 350px;
+    width: 300px;
     background-color:orangered;
     border-radius: 10px;
 }
 
 .cardGado:hover img{
-    padding-left: 10%;
+    padding-left: 4%;
 }
 .cardGado:hover {
     background-color:red;
