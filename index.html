@@ -42,9 +42,13 @@
   <!-- Topo -->
   <main>
     <section class="section-imgTopo">
-      <img src="assets/images/Foto Principal.jpg" alt="Foto Nelore frente" width=70% height="450px">
-      <audio id="som" controls="controls">
-        <source src="assets/som/Ando devagar porque já tive pressa - Tocando em Frente - Almir Sater.mp3"
+      <div class="div-img-quemSomos">
+        <video id="video" width="300%" height="600px" muted loop autoplay>
+          <source src="assets/video/Video-gado.mp4" type="video/mp4">
+        </video>
+      </div>
+      <audio id="som" controls autoplay loop>
+        <source src="assets/som/musica.mp3"
           type="audio/mpeg">
       </audio>
       <p class="frase">"Campeiro é meu coração <br>
@@ -56,11 +60,6 @@
 
     <!-- Quem Somos -->
     <section class="section-quemSomos">
-      <div class="div-img-quemSomos">
-        <video id="video" width="100%" height="450px" controls>
-          <source src="assets/video/Video-gado.mp4" type="video/mp4">
-        </video>
-      </div>
       <article id="quemSomos" class="quemSomos">
         <h2>Quem somos</h2>
         <p class="conteudo">Localizada na cidade de Corumbatái-SP, somos uma família de criadores
@@ -125,44 +124,21 @@
               <input name="email" type="email" placeholder="Email" />
             </div>
           </div>
-          <div class="form-div-radio">
-            <label>Sexo</label>
-            <div class="form-radios">
-              <label>
-                <input name="sex" type="radio" value="Masculino" />
-                Masculino
-              </label>
-              <label>
-                <input name="sex" type="radio" value="Feminino" />
-                Feminino
-              </label>
-              <label>
-                <input name="sex" type="radio" value="Outro" />
-                Outro
-              </label>
-            </div>
-          </div>
           <div class="form-div-select">
             <label>Raça</label>
             <div>
               <select name="favoriteGado">
-                <option></option>
+                <option>Selecione uma raça</option>
                 <option>Nelore</option>
                 <option>Nelore-Angus</option>
                 <option>Jersolanda</option>
               </select>
             </div>
           </div>
-          <div class="form-div-checkbox">
-            <label for="employed">Satisfeito</label>
-            <div class="form-div-input-checkbox">
-              <input name="employed" id="employed" type="checkbox" />
-            </div>
-          </div>
           <div class="form-div-textarea">
-            <label>Notas</label>
+            <label>Mensagem</label>
             <div>
-              <textarea name="notes"></textarea>
+              <textarea placeholder="Gostaria de fazer um orçamento" name="notes"></textarea>
             </div>
           </div>
           <div class="div-buttons">

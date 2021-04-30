@@ -7,10 +7,9 @@
 
 
 /** HEADER **/
-
 header {
     background-color: #d3d3d3;
-    padding: 1% 10%;
+    padding: 0.5% 10%;
 }
 
 .containerHeader {
@@ -19,7 +18,7 @@ header {
 }
 
 header img {
-    height: 70px;
+    height: 50px;
 }
 
 .header-nav-ul {
@@ -61,7 +60,8 @@ header img {
 /** CONTENT **/
 
 main {
-    padding: 0 5%; 
+    padding: 2% 10%; 
+    background-image: url('../images/Foto Principal.jpg');
     background-color: gainsboro;
 }
 
@@ -97,7 +97,7 @@ main {
 }
 
 .quemSomos {
-    padding-top: 3em;
+    padding: 5%;
 }
 
 .quemSomos h2{
@@ -128,7 +128,7 @@ main {
     height: 550px;
     text-align: center;
     justify-content: space-around;
-    padding: 2em 0 0 0;
+    padding: 5%;
     background-color: gainsboro;
 }
 
@@ -233,7 +233,9 @@ form > div > div > * {
 }
 
 .section-contatos {
-    padding: 2em 0;
+    padding: 5%;
+    background-color: gainsboro;
+
 }
 
 .section-contatos h2 {
@@ -243,6 +245,10 @@ form > div > div > * {
     font-size: xx-large;
     margin-bottom: 1em;
     border-bottom: solid 2px black;
+}
+
+.section-contatos label {
+    width: 130px;
 }
 
 .div-buttons {
